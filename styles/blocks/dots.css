@@ -1,0 +1,33 @@
+.dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots__item {
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dots__item:last-child {
+  margin-right: 0;
+}
+
+.dots__item:hover {
+  opacity: 0.6;
+}
+
+.dots__item:active {
+  opacity: 0.4;
+}
+
+.dots__item--active {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  cursor: auto;
+}
