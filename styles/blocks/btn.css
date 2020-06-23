@@ -6,6 +6,11 @@
   border: 1px solid var(--accent-color);
   border-radius: 3px;
   transition: all 0.3s ease;
+  background-color: transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
 .btn:hover {

@@ -43,6 +43,14 @@
   border-bottom: none;
 }
 
+.expertise__item:nth-child(3n) {
+  border-right: none;
+}
+
+.expertise__item:nth-child(3n + 1) {
+  border-left: none;
+}
+
 .expertise__item-title {
   font-size: 14px;
   line-height: 18px;
