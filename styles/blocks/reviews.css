@@ -141,3 +141,30 @@
   width: 75px;
   height: 75px;
 }
+
+@media (max-width: 425px) {
+  .reviews__review {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .reviews__list {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .reviews__list::before,
+  .reviews__list::after {
+    display: none;
+  }
+
+  .reviews__item {
+    width: 25px;
+    height: 25px;
+  }
+
+  .reviews__item--active {
+    width: 35px;
+    height: 35px;
+  }
+}

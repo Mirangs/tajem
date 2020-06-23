@@ -44,3 +44,18 @@
 .promo__link {
   margin-bottom: 130px;
 }
+
+@media (max-width: 425px) {
+  .promo {
+    padding-top: 30px;
+  }
+
+  .promo__slogan {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .promo__link {
+    margin-bottom: 30px;
+  }
+}

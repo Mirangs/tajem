@@ -91,3 +91,9 @@
   background-image: url('../../img/expertise/love.png');
   background-size: 50px 46px;
 }
+
+@media (max-width: 425px) {
+  .expertise__item {
+    border: none;
+  }
+}

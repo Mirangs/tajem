@@ -9,11 +9,11 @@
 }
 
 .story .column:first-child {
-  width: 42%;
+  flex-basis: 42%;
 }
 
 .story .column:last-child {
-  width: 58%;
+  flex-basis: 58%;
 }
 
 .story__title {
@@ -33,4 +33,23 @@
 
 .story__description:last-child {
   margin-bottom: 30px;
+}
+
+@media (max-width: 425px) {
+  .story {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .column {
+    flex-basis: 100%;
+  }
+
+  .story__content {
+    text-align: center;
+  }
+
+  .story__description {
+    padding-right: 0;
+  }
 }

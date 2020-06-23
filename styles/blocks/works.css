@@ -106,3 +106,20 @@
   padding-left: 30px;
   padding-right: 30px;
 }
+
+@media (max-width: 768px) {
+  .works .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .works__item {
+    flex-basis: 30%;
+  }
+}
+
+@media (max-width: 425px) {
+  .works__item {
+    flex-basis: 100%;
+  }
+}

@@ -12,6 +12,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .page-nav__item {
@@ -40,4 +41,22 @@
 .page-nav__item a:active,
 .page-nav__logo:active {
   opacity: 0.4;
+}
+
+@media (max-width: 425px) {
+  .page-nav {
+    justify-content: center;
+  }
+
+  .page-nav__logo {
+    margin-bottom: 20px;
+  }
+
+  .page-nav__list {
+    justify-content: center;
+  }
+
+  .page-nav__item {
+    margin-bottom: 10px;
+  }
 }
