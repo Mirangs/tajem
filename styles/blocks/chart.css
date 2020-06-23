@@ -1,0 +1,16 @@
+.chart {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.chart__content {
+  display: grid;
+  grid-template-rows: 500px 30px;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  align-items: flex-end;
+}
+
+.chart__content .label {
+  text-align: center;
+}
