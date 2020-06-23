@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:wght@300;700;900&family=Hammersmith+One&display=swap" rel="stylesheet">
   <title>Test Task</title>
 </head>
 <body>
   <header class="page-header">
     <nav class="page-nav container">
-      <a href="#home" class="page-nav__logo"><img src="./img/header/logo.png" alt="Tajam company" width="128" height="50"></a>
+      <a href="#home" class="page-nav__logo"><img src="./img/header/logo.png" alt="Tajem company" width="128" height="50"></a>
       <ul class="page-nav__list">
         <li class="page-nav__item page-nav__item--active"><a href="#home">Home</a></li>
-        <li class="page-nav__item"><a href="#about">About</a></li>
+        <li class="page-nav__item"><a href="#story">About</a></li>
         <li class="page-nav__item"><a href="#expertise">Expertise</a></li>
-        <li class="page-nav__item"><a href="#teams">Teams</a></li>
+        <li class="page-nav__item"><a href="#team">Teams</a></li>
         <li class="page-nav__item"><a href="#works">Works</a></li>
         <li class="page-nav__item"><a href="#reviews">People say</a></li>
         <li class="page-nav__item"><a href="#contact">Contact</a></li>
@@ -36,5 +36,87 @@
       </ul>
     </section>
   </header>
+
+  <main class="page-content">
+    <section class="story container" id="story">
+      <div class="column"">
+        <img src="./img/story/logo.png" alt="Tajem company" class="story__logo" width="235" height="229" />
+      </div>
+      <div class="column">
+        <section class="story__content">
+          <h2 class="story__title title">Our story</h2>
+          <p class="story__description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+          <p class="story__description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <a href="" class="btn story__link">Learn more</a>
+        </section>
+      </div>
+    </section>
+    <section class="story-video">
+      <button class="story-video__play-btn">Watch our story</button>
+    </section>
+
+    <section class="expertise container" id="expertise">
+      <h2 class="expertise__title title">Expertise</h2>
+      <p class="expertise__slogan slogan">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+      <ul class="expertise__list">
+        <li class="expertise__item expertise__item--design">
+          <h3 class="expertise__item-title">Web design & development</h3>
+          <p class="expertise__item-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </li>
+        <li class="expertise__item expertise__item--identity">
+          <h3 class="expertise__item-title">Branding identity</h3>
+          <p class="expertise__item-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </li>
+        <li class="expertise__item expertise__item--mobile">
+          <h3 class="expertise__item-title">Mobile app</h3>
+          <p class="expertise__item-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </li>
+        <li class="expertise__item expertise__item--optimization">
+          <h3 class="expertise__item-title">Search engine optimization</h3>
+          <p class="expertise__item-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </li>
+        <li class="expertise__item expertise__item--development">
+          <h3 class="expertise__item-title">Game development</h3>
+          <p class="expertise__item-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </li>
+        <li class="expertise__item expertise__item--love">
+          <h3 class="expertise__item-title">Mader with love</h3>
+          <p class="expertise__item-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="team__title title">Meet our amazing team</h2>
+        <p class="team__slogan slogan">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+        <ul class="team__list">
+          <li class="team__item">
+            <div class="team__item-photo"></div>
+            <h4 class="team__item-title">Semf Ucuk</h4>
+            <p class="team__item-description">CEO & Founder</p>
+          </li>
+          <li class="team__item">
+            <div class="team__item-photo"></div>
+            <h4 class="team__item-title">Dik Aladin</h4>
+            <p class="team__item-description">Engineering</p>
+          </li>
+          <li class="team__item">
+            <div class="team__item-photo"></div>
+            <h4 class="team__item-title">Jeng Kol</h4>
+            <p class="team__item-description">Designer</p>
+          </li>
+          <li class="team__item">
+            <div class="team__item-photo"></div>
+            <h4 class="team__item-title">Pet Romak</h4>
+            <p class="team__item-description">Marketing</p>
+          </li>
+        </ul>
+
+        <p>Become part of our dream team, let's join us!</p>
+        <a href="#" class="btn team__link">We are hiring</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>

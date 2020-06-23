@@ -1,0 +1,42 @@
+.story-video {
+  background-image: url('../../img/story/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  background-color: var(--fallback-bg-color);
+  min-height: 560px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-video__play-btn {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  padding-top: 140px;
+  background-image: url('../../img/story/play-icon.png');
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: 100px 100px;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.story-video__play-btn:hover {
+  opacity: 0.6;
+}
+
+.story-video__play-btn:active {
+  opacity: 0.4;
+}

@@ -22,3 +22,40 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.title {
+  margin-top: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--title-color);
+}
+
+.slogan {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+
+  position: relative;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+}
+
+.slogan::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12%;
+  height: 1px;
+}

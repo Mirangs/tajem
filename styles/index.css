@@ -6,3 +6,7 @@
 @import './blocks/header.css';
 @import './blocks/page-nav.css';
 @import './blocks/promo.css';
+@import './blocks/story.css';
+@import './blocks/story-video.css';
+@import './blocks/expertise.css';
+@import './blocks/team.css';

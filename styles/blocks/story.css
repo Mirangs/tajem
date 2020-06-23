@@ -1,0 +1,36 @@
+.story {
+  padding-top: 60px;
+  padding-bottom: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.story .column:first-child {
+  width: 42%;
+}
+
+.story .column:last-child {
+  width: 58%;
+}
+
+.story__title {
+  margin-bottom: 20px;
+}
+
+.story__description {
+  margin-bottom: 25px;
+  padding-right: 40px;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #413d4b;
+}
+
+.story__description:last-child {
+  margin-bottom: 30px;
+}

@@ -1,5 +1,5 @@
 .page-header {
-  background-color: #332a53;
+  background-color: var(--fallback-bg-color);
   background-image: url('../../img/header/bg.jpg');
   background-repeat: no-repeat;
   background-position: 0 0;

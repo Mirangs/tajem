@@ -1,0 +1,88 @@
+.team {
+  padding: 70px 0;
+
+  color: #FFFFFF;
+
+  background-color: var(--fallback-bg-color);
+  background-image: url('../../img/team/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.team .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.team__title {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.team__slogan {
+  color: #FFFFFF;
+}
+
+.team__slogan::after {
+  background-color: #FFFFFF;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 70px;
+}
+
+.team__item {
+  width: 220px;
+  margin-right: 20px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.team__item:hover {
+  transform: scale(1.05);
+}
+
+.team__item:last-child {
+  margin-right: 0;
+}
+
+.team__item-photo {
+  height: 230px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.team__item-title {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.team__item-description {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.team__link {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+p {
+  color: #F3F3F3;
+  margin-bottom: 27px;
+}
